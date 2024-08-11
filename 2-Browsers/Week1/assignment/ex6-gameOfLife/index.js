@@ -58,23 +58,7 @@ function createGame(context, numRows, numColumns) {
       CELL_SIZE
     );
 
-    let opacity;
-    switch (cell.lifeTime) {
-      case 1:
-        opacity = 0.25;
-        break;
-      case 2:
-        opacity = 0.5;
-        break;
-      case 3:
-        opacity = 0.75;
-        break;
-      case 4:
-        opacity = 1;
-        break;
-      default:
-        opacity = 1;
-    }
+    const opacity = cell.lifeTime <= 4 ? cell.lifeTime * 0.25 : 1;
 
     if (cell.alive) {
       // Draw living cell inside background

@@ -110,3 +110,20 @@ Ran all test suites matching /ex6-gameOfLife.test.js/i.
 2024-08-10 01:28:46 info: ------------------------------------------
 2024-08-10 01:28:48 info: All unit tests passed.
 2024-08-10 01:28:52 info: All steps were completed successfully
+2024-08-11 12:04:00 info: ------------------------------------------
+2024-08-11 12:04:00 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2024-08-11 12:04:00 info: ------------------------------------------
+2024-08-11 12:04:15 info: All unit tests passed.
+2024-08-11 12:04:19 error: *** ESLint Report ***
+
+ex6-gameOfLife/index.js
+  61:9  warning  'opacity' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2024-08-11 12:04:40 info: ------------------------------------------
+2024-08-11 12:04:40 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2024-08-11 12:04:40 info: ------------------------------------------
+2024-08-11 12:04:43 info: All unit tests passed.
+2024-08-11 12:04:46 info: All steps were completed successfully
